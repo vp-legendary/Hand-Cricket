@@ -17,8 +17,8 @@ if u==y:
         w=input("select the striker between 1-11: ")
         for i in range(1,121):
             h=random.randint(1,10)
-            print("bowl: ",h)
             k=int(input("enter the shot between 1-10: "))
+            print("bowl: ",h)
             runs+=k
             if k==h:
                 runs-=k
@@ -31,8 +31,8 @@ if u==y:
         y=int(input("select the bowler between 1-11: "))
         for i in range(1,121):
             s=random.randint(1,10)
-            print("batting: ",s)
             o=int(input("enter the ball between 1-10: "))
+            print("batting: ",s)
             runs1+=o
             if s==o:
                 runs1-=s
@@ -54,8 +54,8 @@ if u==y:
         l=input("select the bowler between 1-11: ")
         for h in range(1,121):
             g=random.randint(1,10)
-            print("batting: ",g)
             x=int(input("enter the ball between 1-10: "))
+            print("batting: ",g)
             runs2+=g
             if g==x:
                 runs2-=g
@@ -68,8 +68,8 @@ if u==y:
         f=int(input("select the batsman between 1-11: "))
         for t in range(1,121):
             v=random.randint(1,10)
-            print("bowling: ",v)
             r=int(input("enter the shot between 1-10: "))
+            print("bowling: ",v)
             runs3+=r
             if v==r:
                 runs3-=r
@@ -92,8 +92,8 @@ else:
     s=int(input("select the bowler between 1-11: "))
     for g in range(1,121):
         z=random.randint(1,11)
-        print("batting: ",z)
         d=int(input("enter the ball between 1-10: "))
+        print("batting: ",z)
         runs4+=z
         if z==d:
             runs4-=z
@@ -106,8 +106,8 @@ else:
     f=int(input("select the batsman between 1-11: "))
     for e in range(1,121):
         v=random.randint(1,10)
-        print("bowling: ",v)
         r=int(input("enter the shot between 1-10: "))
+        print("bowling: ",v)
         runs5+=r
         if v==r:
             runs5-=r
